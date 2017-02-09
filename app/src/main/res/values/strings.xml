@@ -1,3 +1,19 @@
 <resources>
     <string name="app_name">Chroma Meditation</string>
+
+    <!-- Chromas -->
+    <string name="chroma_purple_title">Purple</string>
+    <string name="chroma_purple_description">Lorem Ipsum</string>
+    <string name="chroma_indigo_title">Indigo</string>
+    <string name="chroma_indigo_description">Lorem Ipsum</string>
+    <string name="chroma_blue_title">Blue</string>
+    <string name="chroma_blue_description">Lorem Ipsum</string>
+    <string name="chroma_green_title">Green</string>
+    <string name="chroma_green_description">Lorem Ipsum</string>
+    <string name="chroma_yellow_title">Yellow</string>
+    <string name="chroma_yellow_description">Lorem Ipsum</string>
+    <string name="chroma_orange_title">Orange</string>
+    <string name="chroma_orange_description">Lorem Ipsum</string>
+    <string name="chroma_red_title">Red</string>
+    <string name="chroma_red_description">Lorem Ipsum</string>
 </resources>

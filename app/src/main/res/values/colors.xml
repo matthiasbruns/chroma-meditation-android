@@ -3,4 +3,35 @@
     <color name="colorPrimary">#3F51B5</color>
     <color name="colorPrimaryDark">#303F9F</color>
     <color name="colorAccent">#FF4081</color>
+
+    <!-- Chromas -->
+    <color name="chroma_purple">#993399</color>
+    <color name="chroma_indigo">#000099</color>
+    <color name="chroma_blue">#0000CC</color>
+    <color name="chroma_green">#00CC00</color>
+    <color name="chroma_yellow">#FFFF00</color>
+    <color name="chroma_orange">#FF9900</color>
+    <color name="chroma_red">#FF0000</color>
+
+    <color name="transparent">#00000000</color>
+    <color name="error">#F44336</color>
+    <color name="warning">#FF9800</color>
+    <color name="success">#4CAF50</color>
+    <color name="white">#FFffffff</color>
+    <color name="white_translucent_15">#25ffffff</color>
+    <color name="white_translucent_90">#e6ffffff</color>
+    <color name="white_dividers">#26ffffff</color>
+    <color name="white_disabled">#4Dffffff</color>
+    <color name="white_disabled_solid">#cecece</color>
+    <color name="white_hint">@color/white_disabled</color>
+    <color name="white_secondary">#B3ffffff</color>
+    <color name="white_primary">@color/white</color>
+    <color name="black">#FF000000</color>
+    <color name="black_dividers">#26000000</color>
+    <color name="black_disabled">#40000000</color>
+    <color name="black_disabled_solid">#474747</color>
+    <color name="black_hint">@color/black_disabled</color>
+    <color name="black_secondary">#8C000000</color>
+    <color name="black_primary">#D9000000</color>
+    <color name="grey600">@color/black_disabled_solid</color>
 </resources>
