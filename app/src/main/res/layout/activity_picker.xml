@@ -10,7 +10,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical">
 
-        <LinearLayout
+        <RelativeLayout
             android:id="@+id/view_chrome_purple"
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -20,13 +20,26 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
                 android:layout_gravity="center"
                 android:text="@string/chroma_purple_title"
                 android:textAlignment="center"
                 android:textAppearance="@style/H1.Inverse" />
-        </LinearLayout>
 
-        <LinearLayout
+            <ImageView
+                android:id="@+id/help_chrome_purple"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/double_horizontal_space"
+                android:layout_marginRight="@dimen/double_horizontal_space"
+                android:src="@drawable/help_circle_outline"
+                android:tint="@color/white_secondary" />
+        </RelativeLayout>
+
+        <RelativeLayout
             android:id="@+id/view_chrome_indigo"
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -36,13 +49,26 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
                 android:layout_gravity="center"
                 android:text="@string/chroma_indigo_title"
                 android:textAlignment="center"
                 android:textAppearance="@style/H1.Inverse" />
-        </LinearLayout>
 
-        <LinearLayout
+            <ImageView
+                android:id="@+id/help_chrome_indigo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/double_horizontal_space"
+                android:layout_marginRight="@dimen/double_horizontal_space"
+                android:src="@drawable/help_circle_outline"
+                android:tint="@color/white_secondary" />
+        </RelativeLayout>
+
+        <RelativeLayout
             android:id="@+id/view_chrome_blue"
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -52,13 +78,26 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
                 android:layout_gravity="center"
                 android:text="@string/chroma_blue_title"
                 android:textAlignment="center"
                 android:textAppearance="@style/H1.Inverse" />
-        </LinearLayout>
 
-        <LinearLayout
+            <ImageView
+                android:id="@+id/help_chrome_blue"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/double_horizontal_space"
+                android:layout_marginRight="@dimen/double_horizontal_space"
+                android:src="@drawable/help_circle_outline"
+                android:tint="@color/white_secondary" />
+        </RelativeLayout>
+
+        <RelativeLayout
             android:id="@+id/view_chrome_green"
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -68,13 +107,26 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
                 android:layout_gravity="center"
                 android:text="@string/chroma_green_title"
                 android:textAlignment="center"
                 android:textAppearance="@style/H1" />
-        </LinearLayout>
 
-        <LinearLayout
+            <ImageView
+                android:id="@+id/help_chrome_green"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/double_horizontal_space"
+                android:layout_marginRight="@dimen/double_horizontal_space"
+                android:src="@drawable/help_circle_outline"
+                android:tint="@color/black_secondary" />
+        </RelativeLayout>
+
+        <RelativeLayout
             android:id="@+id/view_chrome_yellow"
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -84,13 +136,26 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
                 android:layout_gravity="center"
                 android:text="@string/chroma_yellow_title"
                 android:textAlignment="center"
                 android:textAppearance="@style/H1" />
-        </LinearLayout>
 
-        <LinearLayout
+            <ImageView
+                android:id="@+id/help_chrome_yellow"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/double_horizontal_space"
+                android:layout_marginRight="@dimen/double_horizontal_space"
+                android:src="@drawable/help_circle_outline"
+                android:tint="@color/black_secondary" />
+        </RelativeLayout>
+
+        <RelativeLayout
             android:id="@+id/view_chrome_orange"
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -100,13 +165,26 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
                 android:layout_gravity="center"
                 android:text="@string/chroma_orange_title"
                 android:textAlignment="center"
                 android:textAppearance="@style/H1" />
-        </LinearLayout>
 
-        <LinearLayout
+            <ImageView
+                android:id="@+id/help_chrome_orange"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/double_horizontal_space"
+                android:layout_marginRight="@dimen/double_horizontal_space"
+                android:src="@drawable/help_circle_outline"
+                android:tint="@color/black_secondary" />
+        </RelativeLayout>
+
+        <RelativeLayout
             android:id="@+id/view_chrome_red"
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -116,11 +194,24 @@
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
+                android:layout_centerInParent="true"
                 android:layout_gravity="center"
                 android:text="@string/chroma_red_title"
                 android:textAlignment="center"
                 android:textAppearance="@style/H1" />
-        </LinearLayout>
+
+            <ImageView
+                android:id="@+id/help_chrome_red"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginEnd="@dimen/double_horizontal_space"
+                android:layout_marginRight="@dimen/double_horizontal_space"
+                android:src="@drawable/help_circle_outline"
+                android:tint="@color/black_secondary" />
+        </RelativeLayout>
     </LinearLayout>
 
     <FrameLayout

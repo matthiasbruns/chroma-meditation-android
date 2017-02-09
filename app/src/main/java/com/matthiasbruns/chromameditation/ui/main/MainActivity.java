@@ -1,6 +1,7 @@
 package com.matthiasbruns.chromameditation.ui.main;
 
 import com.matthiasbruns.chromameditation.R;
+import com.matthiasbruns.chromameditation.ui.BaseAcvitiy;
 
 import android.content.Intent;
 import android.os.Build;
@@ -9,7 +10,6 @@ import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityOptionsCompat;
 import android.support.v4.view.ViewCompat;
-import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 
 import butterknife.BindViews;
@@ -19,7 +19,7 @@ import butterknife.ButterKnife;
  * Created by mbruns on 09/02/2017.
  */
 
-public class MainActivity extends AppCompatActivity implements View.OnClickListener {
+public class MainActivity extends BaseAcvitiy implements View.OnClickListener {
 
     @BindViews({R.id.view_chrome_purple, R.id.view_chrome_indigo, R.id.view_chrome_blue,
             R.id.view_chrome_green, R.id.view_chrome_yellow, R.id.view_chrome_orange,

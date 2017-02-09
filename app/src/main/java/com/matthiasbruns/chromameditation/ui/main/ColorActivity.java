@@ -1,17 +1,13 @@
 package com.matthiasbruns.chromameditation.ui.main;
 
 import com.matthiasbruns.chromameditation.R;
+import com.matthiasbruns.chromameditation.ui.BaseAcvitiy;
 
 import android.content.Context;
 import android.content.Intent;
-import android.os.Build;
 import android.os.Bundle;
 import android.support.annotation.NonNull;
 import android.support.annotation.Nullable;
-import android.support.annotation.RequiresApi;
-import android.support.v7.app.AppCompatActivity;
-import android.transition.Transition;
-import android.transition.TransitionInflater;
 import android.view.View;
 
 import java.io.Serializable;
@@ -23,7 +19,7 @@ import butterknife.ButterKnife;
  * Created by mbruns on 09/02/2017.
  */
 
-public class ColorActivity extends AppCompatActivity {
+public class ColorActivity extends BaseAcvitiy {
 
     public static class Configuration implements Serializable {
 
