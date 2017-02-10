@@ -6,7 +6,7 @@
         android:centerColor="@color/white_translucent_15"
         android:endColor="@color/transparent"
         android:gradientRadius="10dp"
-        android:startColor="@color/white_translucent_15"
+        android:startColor="@color/white_translucent_50"
         android:type="radial" >
     </gradient>
 

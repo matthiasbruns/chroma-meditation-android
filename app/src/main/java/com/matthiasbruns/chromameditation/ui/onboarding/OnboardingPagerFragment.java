@@ -55,14 +55,6 @@ public class OnboardingPagerFragment extends Fragment {
     }
 
     @Override
-    public void onResume() {
-        super.onResume();
-        if (mLogoImageView != null) {
-            mLogoImageView.animate().rotation(360).setStartDelay(1000).setDuration(1000).start();
-        }
-    }
-
-    @Override
     public void onSaveInstanceState(final Bundle outState) {
         outState.putInt(EXTRA_LAYOUT_ID, mLayoutId);
         super.onSaveInstanceState(outState);

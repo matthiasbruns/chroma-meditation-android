@@ -65,7 +65,7 @@
                 android:layout_below="@id/onboarding_next_button"
                 android:layout_centerHorizontal="true"
                 android:layout_centerInParent="true"
-                android:src="@drawable/ic_yoga_ball_128" />
+                android:src="@drawable/ic_chakra_128dp" />
 
             <TextView
                 android:id="@+id/onboarding_explanation_text"

@@ -53,7 +53,7 @@
                 android:layout_above="@id/onboarding_intro_title"
                 android:layout_below="@id/onboarding_next_button"
                 android:layout_centerHorizontal="true"
-                android:src="@drawable/ic_yoga_128" />
+                android:src="@drawable/ic_yoga_128dp" />
 
             <TextView
                 android:id="@+id/onboarding_intro_text"

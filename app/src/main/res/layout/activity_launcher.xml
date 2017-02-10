@@ -9,5 +9,5 @@
         android:layout_height="wrap_content"
         android:layout_centerInParent="true"
         android:layout_gravity="center"
-        android:src="@drawable/ic_yoga_128" />
+        android:src="@drawable/ic_yoga_128dp" />
 </RelativeLayout>

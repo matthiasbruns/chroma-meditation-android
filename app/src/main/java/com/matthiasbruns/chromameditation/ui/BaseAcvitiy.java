@@ -33,6 +33,16 @@ public class BaseAcvitiy extends AppCompatActivity {
     }
 
     @Override
+    protected void onResume() {
+        super.onResume();
+
+        View decorView = getWindow().getDecorView();
+        // Hide the status bar.
+        int uiOptions = View.SYSTEM_UI_FLAG_FULLSCREEN;
+        decorView.setSystemUiVisibility(uiOptions);
+    }
+
+    @Override
     public void setContentView(@LayoutRes final int layoutResID) {
         super.setContentView(layoutResID);
         ButterKnife.bind(this);
