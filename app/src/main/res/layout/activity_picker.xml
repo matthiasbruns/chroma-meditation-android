@@ -1,222 +1,119 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.matthiasbruns.chromameditation.ui.main.MainActivity">
+    tools:context="com.matthiasbruns.chromameditation.ui.color.PickerActivity">
 
-    <LinearLayout
+    <ImageView
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="vertical">
+        android:scaleType="centerCrop"
+        android:src="@drawable/onboarding_background" />
 
-        <RelativeLayout
-            android:id="@+id/view_chrome_purple"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:background="@color/chroma_purple">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:layout_gravity="center"
-                android:text="@string/chroma_purple_title"
-                android:textAlignment="center"
-                android:textAppearance="@style/H1.Inverse" />
-
-            <ImageView
-                android:id="@+id/help_chrome_purple"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentRight="true"
-                android:layout_centerVertical="true"
-                android:layout_marginEnd="@dimen/double_horizontal_space"
-                android:layout_marginRight="@dimen/double_horizontal_space"
-                android:src="@drawable/help_circle_outline"
-                android:tint="@color/white_secondary" />
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:id="@+id/view_chrome_indigo"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:background="@color/chroma_indigo">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:layout_gravity="center"
-                android:text="@string/chroma_indigo_title"
-                android:textAlignment="center"
-                android:textAppearance="@style/H1.Inverse" />
-
-            <ImageView
-                android:id="@+id/help_chrome_indigo"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentRight="true"
-                android:layout_centerVertical="true"
-                android:layout_marginEnd="@dimen/double_horizontal_space"
-                android:layout_marginRight="@dimen/double_horizontal_space"
-                android:src="@drawable/help_circle_outline"
-                android:tint="@color/white_secondary" />
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:id="@+id/view_chrome_blue"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:background="@color/chroma_blue">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:layout_gravity="center"
-                android:text="@string/chroma_blue_title"
-                android:textAlignment="center"
-                android:textAppearance="@style/H1.Inverse" />
-
-            <ImageView
-                android:id="@+id/help_chrome_blue"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentRight="true"
-                android:layout_centerVertical="true"
-                android:layout_marginEnd="@dimen/double_horizontal_space"
-                android:layout_marginRight="@dimen/double_horizontal_space"
-                android:src="@drawable/help_circle_outline"
-                android:tint="@color/white_secondary" />
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:id="@+id/view_chrome_green"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:background="@color/chroma_green">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:layout_gravity="center"
-                android:text="@string/chroma_green_title"
-                android:textAlignment="center"
-                android:textAppearance="@style/H1" />
-
-            <ImageView
-                android:id="@+id/help_chrome_green"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentRight="true"
-                android:layout_centerVertical="true"
-                android:layout_marginEnd="@dimen/double_horizontal_space"
-                android:layout_marginRight="@dimen/double_horizontal_space"
-                android:src="@drawable/help_circle_outline"
-                android:tint="@color/black_secondary" />
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:id="@+id/view_chrome_yellow"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:background="@color/chroma_yellow">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:layout_gravity="center"
-                android:text="@string/chroma_yellow_title"
-                android:textAlignment="center"
-                android:textAppearance="@style/H1" />
-
-            <ImageView
-                android:id="@+id/help_chrome_yellow"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentRight="true"
-                android:layout_centerVertical="true"
-                android:layout_marginEnd="@dimen/double_horizontal_space"
-                android:layout_marginRight="@dimen/double_horizontal_space"
-                android:src="@drawable/help_circle_outline"
-                android:tint="@color/black_secondary" />
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:id="@+id/view_chrome_orange"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:background="@color/chroma_orange">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:layout_gravity="center"
-                android:text="@string/chroma_orange_title"
-                android:textAlignment="center"
-                android:textAppearance="@style/H1" />
-
-            <ImageView
-                android:id="@+id/help_chrome_orange"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentRight="true"
-                android:layout_centerVertical="true"
-                android:layout_marginEnd="@dimen/double_horizontal_space"
-                android:layout_marginRight="@dimen/double_horizontal_space"
-                android:src="@drawable/help_circle_outline"
-                android:tint="@color/black_secondary" />
-        </RelativeLayout>
-
-        <RelativeLayout
-            android:id="@+id/view_chrome_red"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight="1"
-            android:background="@color/chroma_red">
-
-            <TextView
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:layout_gravity="center"
-                android:text="@string/chroma_red_title"
-                android:textAlignment="center"
-                android:textAppearance="@style/H1" />
-
-            <ImageView
-                android:id="@+id/help_chrome_red"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_alignParentEnd="true"
-                android:layout_alignParentRight="true"
-                android:layout_centerVertical="true"
-                android:layout_marginEnd="@dimen/double_horizontal_space"
-                android:layout_marginRight="@dimen/double_horizontal_space"
-                android:src="@drawable/help_circle_outline"
-                android:tint="@color/black_secondary" />
-        </RelativeLayout>
-    </LinearLayout>
-
-    <FrameLayout
-        android:id="@+id/fragment_container"
+    <android.support.v7.widget.CardView
         android:layout_width="match_parent"
-        android:layout_height="match_parent" />
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_marginEnd="@dimen/onboarding_horizontal_padding"
+        android:layout_marginLeft="@dimen/onboarding_horizontal_padding"
+        android:layout_marginRight="@dimen/onboarding_horizontal_padding"
+        android:layout_marginStart="@dimen/onboarding_horizontal_padding"
+        app:cardBackgroundColor="@color/white_translucent_75"
+        app:cardElevation="4dp"
+        app:cardUseCompatPadding="true">
 
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="start"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/onboarding_vertical_padding"
+            android:paddingEnd="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingStart="16dp"
+            android:paddingTop="@dimen/onboarding_vertical_padding">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/view_chrome_yellow"
+                android:layout_width="56dp"
+                android:layout_height="0dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_yoga_yellow_64dp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/view_chrome_green"
+                android:layout_width="56dp"
+                android:layout_height="0dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_yoga_green_64dp" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:paddingBottom="8dp"
+            android:paddingTop="8dp">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/view_chrome_orange"
+                android:layout_width="56dp"
+                android:layout_height="0dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_yoga_orange_64dp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/view_chrome_red"
+                android:layout_width="56dp"
+                android:layout_height="0dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_yoga_red_64dp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/view_chrome_purple"
+                android:layout_width="56dp"
+                android:layout_height="0dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_yoga_purple_64dp" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="end"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/onboarding_vertical_padding"
+            android:paddingEnd="16dp"
+            android:paddingLeft="16dp"
+            android:paddingRight="16dp"
+            android:paddingStart="16dp"
+            android:paddingTop="@dimen/onboarding_vertical_padding">
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/view_chrome_blue"
+                android:layout_width="56dp"
+                android:layout_height="0dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_yoga_blue_64dp" />
+
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/view_chrome_indigo"
+                android:layout_width="56dp"
+                android:layout_height="0dp"
+                android:layout_margin="4dp"
+                android:layout_weight="1"
+                android:src="@drawable/ic_yoga_indigo_64dp" />
+        </LinearLayout>
+    </android.support.v7.widget.CardView>
 </RelativeLayout>

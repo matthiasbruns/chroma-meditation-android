@@ -4,4 +4,7 @@
     <dimen name="double_vertical_space">16dp</dimen>
     <dimen name="single_horizontal_space">8dp</dimen>
     <dimen name="single_vertical_space">8dp</dimen>
+
+    <dimen name="onboarding_vertical_padding">64dp</dimen>
+    <dimen name="onboarding_horizontal_padding">32dp</dimen>
 </resources>

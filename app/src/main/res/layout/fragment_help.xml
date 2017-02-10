@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black_translucent_50"
+    android:clickable="true"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.CardView
+        android:id="@+id/help_card"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_margin="32dp"
+        android:orientation="vertical"
+        app:cardCornerRadius="4dp"
+        app:cardUseCompatPadding="true">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:paddingBottom="@dimen/double_vertical_space"
+            android:paddingEnd="@dimen/double_horizontal_space"
+            android:paddingLeft="@dimen/double_horizontal_space"
+            android:paddingRight="@dimen/double_horizontal_space"
+            android:paddingStart="@dimen/double_horizontal_space"
+            android:paddingTop="@dimen/double_vertical_space">
+
+            <TextView
+                android:id="@+id/help_title"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="@dimen/single_vertical_space"
+                android:text="@string/chroma_blue_title"
+                android:textAppearance="@style/H1"
+                android:textColor="@color/black_secondary" />
+
+            <ImageView
+                android:id="@+id/help_close"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignBottom="@id/help_title"
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignTop="@id/help_title"
+                android:src="@drawable/ic_close_circle_outline_grey600_24dp" />
+
+            <TextView
+                android:id="@+id/help_description"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/help_title"
+                android:text="@string/chroma_blue_description" />
+        </RelativeLayout>
+    </android.support.v7.widget.CardView>
+
+</FrameLayout>
